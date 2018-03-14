@@ -34,11 +34,10 @@
 
   "storage": {
     "type": "redis",
-    "host": "0.0.0.0",
+    "host": "localhost",
     "port": 6379,
-    "db": 2,
-    "expire": 2592000
-  },
+    "db": 2
+},
 
   "documents": {
     "about": "./about.md"
